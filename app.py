@@ -8,7 +8,9 @@ def index():
 
 # Git
 
-
+@app.route('/hello',methods=['GET'])
+def hello():
+    return "Starting hello"
 
 
 
