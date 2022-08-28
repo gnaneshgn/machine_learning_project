@@ -1,7 +1,16 @@
+<<<<<<< HEAD
 FROM python:3.7
 
 COPY . /app
 WORKDIR /app
 RUN pip install -r requirement.txt
 EXPOSE $PORT
+=======
+FROM python:3.7
+
+COPY . /app
+WORKDIR /app
+RUN pip install -r requirement.txt
+EXPOSE $PORT
+>>>>>>> 5d2c3beeaa4234396adc882a043d255fd2b9066d
 CMD gunicorn --worker=4 --bind 0.0.0.0:$PORT app:app
