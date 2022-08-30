@@ -7,7 +7,7 @@ def index():
     return "Starting Ml project"
 
 # Git
-
+#Docker
 @app.route('/hello',methods=['GET'])
 def hello():
     return "Starting hello"
