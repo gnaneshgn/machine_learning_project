@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup,find_packages
 from typing import List
 
 
@@ -12,14 +12,14 @@ def get_requirements_list()->List[str]:
         in requirements.txt file    
     """
     with open(REQ_FILE_NAME) as requirement_file:
-        return requirement_file.readlines()
+        return requirement_file.readlines().remove('-e .')
 
 setup(
     name="housing-predictor",
     version="0.0.1",
     author="GnaneshGn",
     description="This is house price prediction Machine Learning project",
-    packages=["housing"],
+    packages=find_packages(),
     license="Apache license version 2.0",
     install_requires=get_requirements_list()
 )
