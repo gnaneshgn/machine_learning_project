@@ -82,3 +82,7 @@ docker stop container-id
 
 >>>>>>> 5d2c3beeaa4234396adc882a043d255fd2b9066d
 ```
+
+```
+install ipynb kernel to run ipynb files
+```
