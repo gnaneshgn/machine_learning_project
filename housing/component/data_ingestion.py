@@ -1,7 +1,3 @@
-from curses import raw
-from tkinter.tix import Tree
-from turtle import down
-from build.lib import housing
 from housing.entity.config_entity import DataIngestionConfig
 from housing.exception import HousingException
 import sys
