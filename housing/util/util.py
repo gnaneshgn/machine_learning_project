@@ -6,7 +6,7 @@ import os,sys
 
 def read_yaml_file(file_path:str)->dict:
     """
-        Read a yaml file and returns the contents as a directory.
+        Read a yaml file and returns the contents as a dictionary.
         file_path: str
     """
     try:

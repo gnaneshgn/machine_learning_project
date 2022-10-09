@@ -12,3 +12,18 @@ CURRENT_TIME_STAMP = f"{datetime.now().strftime('%Y-%m-%d-%H-%M-%S')}"
 TRAINING_PIPLEINE_CONFIG_KEY="training_pipeline_config"
 TRAINING_PIPELINE_ARTIFACT_DIR="artifact_dir"
 TRAINING_PIPELINE_NAME_KEY="pipeline_name"
+
+
+#Data ingestion related vaiables
+DATA_INGESTION_CONFIG_KEY="data_ingestion_config"
+DATA_INGESTION_ARTIFACT_DIR="data_ingestion"
+DATA_INGESTION_DATASET_URL_KEY= "dataset_download_url"
+DATA_INGESTION_RAW_DATA_DIR_EY="raw_data_dir"
+DATA_INGESTION_TGZ_DOWNLOAD_DIR= "tgz_download_dir"
+DATA_INGESTION_DIR_NAME_KEY="ingested_dir"
+DATA_INGESTION_TRAIN_DIR="train"
+DATA_INGESTION_TEST_DIR="test"
+
+#Data validation related variables
+DATA_VALIDATION_CONFIG_KEY="data_validation_config"
+DATA_SCHEMA_FILE_PATH="schema_file_path"
